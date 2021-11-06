@@ -18,10 +18,13 @@
 <center>
     <h1>AI Ping Pong</h1>
     <br><br>
-    <button onclick="instructions()" class="btn btn-info">Click for Instructions</button>
+    <button  id="instruct" onclick="instructions()" class="btn btn-info">Click for Instructions</button>
     <br><br>
     <button onclick="game()" class="btn btn-danger">Play</button>
     <br><br>
+    <button onclick="restart()" class="btn btn-success">Restart</button>
+    <br><br>
+    <div id="data-target instruct"></div>
     <h3 id="status" class="btn btn-sucess"></h3>
     <div id="canvas"></div>
 </center>
